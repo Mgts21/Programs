@@ -2,153 +2,154 @@
 <html>
 
 <head>
-    <title>Programs</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: rgb(22, 11, 44);
-            color: rgb(255, 255, 255);
-            margin: 0;
-            padding: 20px;
-        }
+  <title>Programs</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: rgb(22, 11, 44);
+      color: rgb(255, 255, 255);
+      margin: 0;
+      padding: 20px;
+    }
 
-        h2 {
-            font-size: 2em;
-            color: #ffffff;
-            text-shadow: 0 0 10px #ffffff, 0 0 20px #00d5ff;
-        }
+    h2 {
+      font-size: 2em;
+      color: #ffffff;
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #00d5ff;
+    }
 
-        p {
-            font-size: 1.5em;
-            color: #ffffff;
-            text-shadow: 0 0 10px #00d5ff, 0 0 20px #00d5ff;
-        }
+    p {
+      font-size: 1.5em;
+      color: #ffffff;
+      text-shadow: 0 0 10px #00d5ff, 0 0 20px #00d5ff;
+    }
 
-        a[href="https://jtzai.github.io/html/devteam.html"] {
-            color: #2ecafa;
-            font-weight: bold;
-        }
+    a[href="https://mgts21.github.io/htmlmain/devteam.html"] {
+      color: #2ecafa;
+      font-weight: bold;
+    }
 
-        a[href="https://jtzai.github.io/html/devteam.html"]:hover {
-            color: #7807db;
-        }
+    a[href="https://mgts21.github.io/htmlmain/devteam.html"]:hover {
+      color: #7807db;
+    }
 
-        input[type="number"] {
-            padding: 10px;
-            border: none;
-            border-radius: 6px;
-            background: linear-gradient(to right, #161a47, #54c7e7, #00d5ff);
-            color: #ffffff;
-            font-size: 16px;
-        }
+    input[type="number"] {
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      background: linear-gradient(to right, #161a47, #54c7e7, #00d5ff);
+      color: #ffffff;
+      font-size: 16px;
+    }
 
-        /* ✅ Added placeholder color */
-        input[type="number"]::placeholder {
-            color: #ffffff;
-            opacity: 1;
-        }
+    /* ✅ Added placeholder color */
+    input[type="number"]::placeholder {
+      color: #ffffff;
+      opacity: 1;
+    }
 
-        button {
-            padding: 12px 24px;
-            font-size: 16px;
-            color: #fff;
-            border: none;
-            border-radius: 6px;
-            background: linear-gradient(to right, #161a47, #54c7e7, #00d5ff);
-            cursor: pointer;
-            transition: transform 0.2s ease;
-        }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      background: linear-gradient(to right, #161a47, #54c7e7, #00d5ff);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
 
-        button:hover {
-            transform: scale(1.05);
-        }
-    </style>
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 
 <body>
 
-    <h1>Programs</h1>
+  <h1>Programs</h1>
 
-    <h2> Add Two Numbers</h2>
-    <p> <input type="number" id="num1" placeholder="Enter first number">
-    <p> <input type="number" id="num2" placeholder="Enter second number">
-        <button onclick="calculateSum()">Calculate Sum</button>
-    <p>Result: <span id="result"></span></p>
+  <h2> Add Two Numbers</h2>
+  <p> <input type="number" id="num1" placeholder="Enter first number">
+  <p> <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="calculateSum()">Calculate Sum</button>
+  <p>Result: <span id="result"></span></p>
 
-    <h2>Multiply Two Numbers</h2>
-    <p> <input type="number" id="pnum1" placeholder="Enter first number">
-    <p> <input type="number" id="pnum2" placeholder="Enter second number">
-        <button onclick="calculateProduct()">Calculate Product</button>
-    <p>Result: <span id="presult"></span></p>
+  <h2>Multiply Two Numbers</h2>
+  <p> <input type="number" id="pnum1" placeholder="Enter first number">
+  <p> <input type="number" id="pnum2" placeholder="Enter second number">
+    <button onclick="calculateProduct()">Calculate Product</button>
+  <p>Result: <span id="presult"></span></p>
 
-    <h2>Subtract Two Numbers</h2>
-    <p> <input type="number" id="dnum1" placeholder="Enter first number">
-    <p> <input type="number" id="dnum2" placeholder="Enter second number">
-        <button onclick="calculateSubtract()">Calculate Difference</button>
-    <p>Result: <span id="dresult"></span></p>
+  <h2>Subtract Two Numbers</h2>
+  <p> <input type="number" id="dnum1" placeholder="Enter first number">
+  <p> <input type="number" id="dnum2" placeholder="Enter second number">
+    <button onclick="calculateSubtract()">Calculate Difference</button>
+  <p>Result: <span id="dresult"></span></p>
 
-    <h2>Divide Two Numbers</h2>
-    <p> <input type="number" id="qnum1" placeholder="Enter first number">
-    <p> <input type="number" id="qnum2" placeholder="Enter second number">
-        <button onclick="calculateQuotient()">Calculate Quotient</button>
-    <p>Result: <span id="qresult"></span></p>
+  <h2>Divide Two Numbers</h2>
+  <p> <input type="number" id="qnum1" placeholder="Enter first number">
+  <p> <input type="number" id="qnum2" placeholder="Enter second number">
+    <button onclick="calculateQuotient()">Calculate Quotient</button>
+  <p>Result: <span id="qresult"></span></p>
 
-    <h2>Even Or Odd</h2>
-    <p> <input type="number" id="number" placeholder="Enter number">
-        <button onclick="calculateEvenorOdd()">Show if Number is Even or Odd</button>
-    <p>Result: <span id="numberresult"></span></p>
+  <h2>Even Or Odd</h2>
+  <p> <input type="number" id="number" placeholder="Enter number">
+    <button onclick="calculateEvenorOdd()">Show if Number is Even or Odd</button>
+  <p>Result: <span id="numberresult"></span></p>
 
-    <p> <a href="https://jtzai.github.io/html/devteam.html">- About Me</a> <br>
+  <p> <a href="https://mgts21.github.io/htmlmain/devteam.html">- About Me</a> <br>
 
-        <script>
-            function calculateSum() {
-                let num1 =
-                    parseFloat(document.getElementById('num1').value);
-                let num2 =
-                    parseFloat(document.getElementById('num2').value);
-                let sum = num1 + num2;
+    <script>
+      function calculateSum() {
+        let num1 =
+          parseFloat(document.getElementById('num1').value);
+        let num2 =
+          parseFloat(document.getElementById('num2').value);
+        let sum = num1 + num2;
 
-                document.getElementById('result').textContent = sum;
-            }
+        document.getElementById('result').textContent = sum;
+      }
 
-            function calculateProduct() {
-                let pnum1 = parseFloat(document.getElementById('pnum1').value);
-                let pnum2 = parseFloat(document.getElementById('pnum2').value);
-                let product = pnum1 * pnum2;
+      function calculateProduct() {
+        let pnum1 = parseFloat(document.getElementById('pnum1').value);
+        let pnum2 = parseFloat(document.getElementById('pnum2').value);
+        let product = pnum1 * pnum2;
 
-                document.getElementById('presult').textContent = product;
-            }
+        document.getElementById('presult').textContent = product;
+      }
 
-            function calculateSubtract() {
-                let dnum1 = parseFloat(document.getElementById('dnum1').value);
-                let dnum2 = parseFloat(document.getElementById('dnum2').value);
-                let difference = dnum1 - dnum2;
+      function calculateSubtract() {
+        let dnum1 = parseFloat(document.getElementById('dnum1').value);
+        let dnum2 = parseFloat(document.getElementById('dnum2').value);
+        let difference = dnum1 - dnum2;
 
-                document.getElementById('dresult').textContent = difference;
-            }
+        document.getElementById('dresult').textContent = difference;
+      }
 
-            function calculateQuotient() {
-                let qnum1 = parseFloat(document.getElementById('qnum1').value);
-                let qnum2 = parseFloat(document.getElementById('qnum2').value);
-                let difference = qnum1 / qnum2;
+      function calculateQuotient() {
+        let qnum1 = parseFloat(document.getElementById('qnum1').value);
+        let qnum2 = parseFloat(document.getElementById('qnum2').value);
+        let difference = qnum1 / qnum2;
 
-                document.getElementById('qresult').textContent = difference;
-            }
+        document.getElementById('qresult').textContent = difference;
+      }
 
-            function calculateEvenorOdd() {
-                let number = parseFloat(document.getElementById('number').value);
-                if (isNaN(number)) {
-                    document.getElementById('numberresult').textContent = "Please enter a valid number.";
-                    return;
-                }
+      function calculateEvenorOdd() {
+        let number = parseFloat(document.getElementById('number').value);
+        if (isNaN(number)) {
+          document.getElementById('numberresult').textContent = "Please enter a valid number.";
+          return;
+        }
 
-                if (number % 2 === 0) {
-                    document.getElementById('numberresult').textContent = number + " is Even";
-                } else {
-                    document.getElementById('numberresult').textContent = number + " is Odd";
-                }
-            }
-        </script>
+        if (number % 2 === 0) {
+          document.getElementById('numberresult').textContent = number + " is Even";
+        } else {
+          document.getElementById('numberresult').textContent = number + " is Odd";
+        }
+      }
+    </script>
 </body>
+
 
 </html>
